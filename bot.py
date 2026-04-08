@@ -33,8 +33,8 @@ load_dotenv()
 BOT_TOKEN = os.getenv("8721745892:AAHCJFESLkO8TgeuGUD1fFTkAEWEB1j17o4")
 MONGODB_URI = os.getenv("mongodb+srv://battelground9101_db_user:PpSfXbkKQ8gVWEuZ@cluster0.bqm6dxn.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "Cluster0")
-API_URL = os.getenv("mongodb+srv://battelground9101_db_user:PpSfXbkKQ8gVWEuZ@cluster0.bqm6dxn.mongodb.net/?appName=Cluster0")
-API_KEY = os.getenv("dtyfsqui")
+API_URL = os.getenv("https://api.battle-destroyer.shop")
+API_KEY = os.getenv("ak_506e58891034c66ab687151a4453cbb")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "6862918172,8512508762").split(",")]
 
 # Blocked ports (must match backend)
